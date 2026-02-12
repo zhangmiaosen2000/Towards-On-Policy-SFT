@@ -25,7 +25,7 @@ The above only provides one way to configure the environment. For more detailed 
 ## 🚀 Getting Started
 
 ### Step 1: Prepare Data
-You can generate data using the Hinted Decoding approach. We have deployed this method in another subdirectory. The method provided here is specifically designed to generate data for the [NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT) dataset:
+You can generate data using the [Hinted Decoding](../HintedDecoding) approach. We have deployed this method in another subdirectory. The method provided here is specifically designed to generate data for the [NuminaMath-CoT](https://huggingface.co/datasets/AI-MO/NuminaMath-CoT) dataset:
 
 ```bash
 python examples/data_preprocess/numina_cot.py \
