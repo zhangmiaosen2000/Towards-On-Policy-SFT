@@ -63,7 +63,7 @@ Supervised fine-tuning (SFT) is computationally efficient but often yields infer
 | Paper (arXiv) V2 Version  | ⏳ TODO |
 
 
-We are doing more exps and efforts to make the technique more solid, please stay-turned!
+We are doing more exps and efforts to make the technique more solid, please stay-tuned!
 
 
 ## 📊 Experiment Results
