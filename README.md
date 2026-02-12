@@ -26,7 +26,7 @@
   · <a href="#" target="_blank">Chong Luo</a><sup>2</sup>
   <br/>
   <a href="#" target="_blank">Weihao Jiang</a><sup>3</sup>
-  · <a href="#" target="_blank">Peng How</a><sup>3</sup>
+  · <a href="#" target="_blank">Peng Hou</a><sup>3</sup>
   · <a href="#" target="_blank">Anxiang Zeng</a><sup>3</sup>
   · <a href="#" target="_blank">Xin Geng</a><sup>1</sup>
   · <a href="#" target="_blank">Baining Guo</a><sup>1,2</sup>
@@ -41,3 +41,23 @@
 </p>
 
 </div>
+</div>
+
+
+## ⭐️ News
+
+* **\[2026.02.13]** We have uploaded our paper to arXiv.
+
+## 📄 Abstract
+Supervised fine-tuning (SFT) is computationally efficient but often yields inferior generalization compared to reinforcement learning (RL). This gap is primarily driven by RL’s use of on-policy data. We propose a framework to bridge this chasm by enabling On-Policy SFT. We first present Distribution Discriminant Theory (DDT), which explains and quantifies the alignment between data and the model-induced distribution. Leveraging DDT, we introduce two complementary techniques: (i) In-Distribution Finetuning (IDFT), a loss-level method to enhance generalization ability of SFT, and (ii) Hinted Decoding, a data-level technique that can re-align the training corpus to the model’s distribution. Extensive experiments demonstrate that our framework achieves generalization performance on par with prominent offline RL algorithms, including DPO and SimPO, while maintaining the efficiency of an SFT pipeline. The proposed framework thus offers a practical alternative in domains where RL is infeasible.
+
+## 🗓️ Release Plan
+| Release Item | Status |
+|---|---|
+| Paper (arXiv) | ✅ Released |
+| In-Domain Finetuning | ✅ Released |
+| Hinted Decoding | ⏳ In progress |
+| Hinted Decoding(vllm) | ⏳ In progress |
+
+## 📊 Experiment Results
+
