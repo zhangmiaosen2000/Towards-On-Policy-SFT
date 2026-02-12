@@ -67,7 +67,7 @@ We are doing more exps and efforts to make the technique more solid, please stay
 
 
 ## 📊 Experiment Results
-
+![Figure](IDFT/assets/idftresults.png)
 
 ## Contect Us
 
