@@ -71,4 +71,4 @@ We are doing more exps and efforts to make the technique more solid, please stay
 
 ## Contect Us
 
-We are still continuously updating. We plan to add more experiments to enhance the impact of the study and update the version of the paper. In the meantime, we welcome your suggestions in all aspects. (t-miazhang@microsoft.com, yishan@xxx.com)
+We are still continuously updating. We plan to add more experiments to enhance the impact of the study and update the version of the paper. In the meantime, we welcome your suggestions in all aspects. (t-miazhang@microsoft.com, ysliu0110@seu.edu.cn)
