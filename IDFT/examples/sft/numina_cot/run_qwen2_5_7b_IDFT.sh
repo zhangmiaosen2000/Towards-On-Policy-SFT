@@ -3,7 +3,7 @@ set -x
 nproc_per_node=8
 project_name=numina-cot-origin-polylog
 
-experiment_name=reexp-numina-cot-origin-polylog-qwen-2.5-7B-instruct
+experiment_name=numina-cot-origin-polylog-qwen-2.5-7B-instruct
 save_path=/mnt/vast/data/miaosen/lys/final_checkpoints/numina_cot_origin/$experiment_name
 
 torchrun --standalone --nnodes=1 --nproc_per_node=$nproc_per_node \

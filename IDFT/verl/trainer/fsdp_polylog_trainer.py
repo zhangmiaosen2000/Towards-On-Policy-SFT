@@ -437,7 +437,7 @@ class FSDPSFTTrainer:
                 epsilon = 1e-10
                 token_probs = torch.clamp(token_probs, epsilon, 1.0)
                 
-                polylog_loss_val = -(token_probs ** gamma_t.detach()) * torch.log(token_probs)
+                polylog_loss_val = -((token_probs ** gamma_t).detach()) * torch.log(token_probs)
                 
                 loss = polylog_loss_val * loss_mask.to(polylog_loss_val.device)
                 
@@ -517,7 +517,7 @@ class FSDPSFTTrainer:
                 epsilon = 1e-10
                 token_probs = torch.clamp(token_probs, epsilon, 1.0)
                 
-                polylog_loss_val = -(token_probs ** gamma_t.detach()) * torch.log(token_probs)
+                polylog_loss_val = -((token_probs ** gamma_t).detach()) * torch.log(token_probs)    
                 
                 loss = polylog_loss_val
                 loss = gather_outputs_and_unpad(loss, gather_dim=0, unpad_dim=0, padding_size=pad_size)
