@@ -54,20 +54,18 @@ Supervised fine-tuning (SFT) is computationally efficient but often yields infer
 ## 🗓️ Release Plan
 | Release Item | Status |
 |---|---|
-| Paper (arXiv) | [✅ Released]() |
+| Paper (arXiv) | [✅ Released](https://arxiv.org/pdf/2602.12222) |
 | In-Domain Finetuning Training code | [✅ Released]() |
 | Hinted Decoding Demo | [✅ Released](HintedDecoding/README.md) |
 | Hinted Decoding Demo (vllm version) | ⏳ In progress |
-| Re-conduct the exps in paper with better dataset (e.g., DeepMath), and more models to enhance the reliability | ⏳ TODO |
-| The online version of the on-policy sft training (model updates and trains for each batch) | ⏳ TODO |
-| Paper (arXiv) V2 Version  | ⏳ TODO |
-
-
-We are doing more exps and efforts to make the technique more solid, please stay-tuned!
+| Re-conduct the exps in paper with better dataset (DeepMath), and more models (base, instruct, thinking) to enhance the reliability | [✅ Released](https://arxiv.org/pdf/2602.12222) |
+| Paper (arXiv) V2 Version  | [✅ Released](https://arxiv.org/pdf/2602.12222) |
 
 
 ## 📊 Experiment Results
 ![Figure](IDFT/assets/idftresults.png)
+
+
 
 ## Contect Us
 
